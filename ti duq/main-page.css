@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(230, 204, 255);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* barra de rolagem */
+html ::-webkit-scrollbar {
+    width: 12px;
+}
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    border: 3px solid rgb(230,204,255) ;
+    background: #af46f5;   
+} 
+html ::-webkit-scrollbar-track {
+    background: rgb(230, 204, 255);
+
+}
+
+/* cabeçalho da pagina */
+.imagem-logo{
+    width: 140px;
+    display:flex;
+    position: relative;
+    margin: -65px -25px;
+    background-position:initial;
+}
+.cabecalho{
+    width:auto;
+    padding: 65px;
+    background-size: auto 100%;
+    background-image:url(./imagens/banner.gif);
+    background-repeat: no-repeat;
+    background-position:center;
+    position: relative;
+    border-bottom: 1px solid #af46f5 ;
+    text-align:end; 
+}
+.menu{
+    text-decoration: none;
+    position: relative;
+    display:inline-flex;    
+}
+.menu-item{
+    display: inline;
+    padding: 5px;
+    margin: 3px 7px;
+    text-decoration: none;
+    font-family: Noto Sans, sans-serif;
+    background-color: white;
+    color: rgb(0, 0, 0);  
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.menu-item:hover{
+    background-color: rgb(152, 112, 245);
+    color: white;
+    transition: 0.3s;
+}
+
+/* parte de produtos */
+.titulo{
+    text-align: center;
+    
+}
+.produto{
+    width: auto;
+    text-align: center;
+    border: 5px solid red;
+}
+h2{
+font-size: 20px;
+font
+}
+.box-produtos{
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    vertical-align: top;
+    margin: 10px 1px;
+    padding: 30px 15px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
