@@ -59,24 +59,25 @@ html ::-webkit-scrollbar-track {
     transition: 0.3s;
 }
 
-/* parte de produtos */
+/* Catalogo */
 .titulo{
     text-align: center;
-    
+    font-size: 60px;
 }
-.produto{
+
+.catalogo{
     width: auto;
     text-align: center;
-    border: 5px solid red;
+    border: 5px solid red;  
 }
+
 h2{
 font-size: 20px;
-font
 }
 .box-produtos{
     display: inline-block;
     text-align: center;
-    width: 25%;
+    width:32%;
     vertical-align: top;
     margin: 10px 1px;
     padding: 30px 15px;
@@ -84,3 +85,17 @@ font
     border: 2px solid #000000;
     border-radius: 10px;
 }
+.box-produtos:hover {
+    
+    background-color: rgb(152, 112, 245);
+    color: white;
+    transition: 0.3s; 
+    display: inline-block; 
+}
+
+
+
+
+
+
+
